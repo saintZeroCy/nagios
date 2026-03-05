@@ -1,0 +1,8 @@
+---
+- name: Install and configure nagios
+  hosts: all
+  become: true
+
+  roles:
+    - nagios
+    
